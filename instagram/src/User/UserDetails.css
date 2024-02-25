@@ -1,0 +1,89 @@
+.userdetails{
+margin-top: 2rem;
+display: flex;
+height: 260px;
+
+}
+.main-body img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px; /* Adjust the width and height to your desired size */
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid gray;
+}
+.userdetails .main-body{
+    width: 60%;
+    display:flex ;
+    gap: 5rem;
+    min-width: 800px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.main-body .user-id{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-body .editprofile{
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: 20rem;
+    margin-top: 30px;
+    height: 40px;
+}
+.main-body .editprofile p{
+    font-size: 20px;
+    margin-right: 0.3rem;
+}
+.main-body .editprofile button{
+    height: 30px;
+    width: 6rem;
+    font-size: 0.9rem; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.main-body .editprofile button:hover{
+    background-color: rgb(230, 230, 230);
+}
+.main-body .editprofile svg{
+    font-size: 25px;
+    cursor: pointer;
+}
+.main-body .followers{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    gap: 2rem;
+    height: 35px;
+    
+}
+.user-id .full-name{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    height: 150px;
+    width: 500px;
+    font-size: 0.9rem;
+}
+.user-id .full-name p{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.user-id .full-name .gender{
+    color: gray;
+    font-weight: 400;
+}
+.user-id .full-name span{
+  
+    flex-wrap: wrap;
+}
+
+.userdetails .space{
+    width: 20%;
+
+}

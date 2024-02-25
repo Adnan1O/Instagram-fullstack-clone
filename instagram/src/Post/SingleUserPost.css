@@ -1,0 +1,35 @@
+.SingleUserPost{
+    display: flex;
+    flex-direction: column;
+
+}
+.SingleUserPost .tabs ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 3rem;
+  
+}
+.SingleUserPost .tabs li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    cursor: pointer;
+}
+.SingleUserPost .tabs svg{
+    font-size: 0.7rem;
+}
+.SingleUserPost .tabs .tagged svg{
+    font-size: 0.9rem;
+}
+.SingleUserPost .tabs .tagged-topline svg{
+    font-size: 0.65rem;
+}
+.SingleUserPost .tabs .tagged-topline {
+  font-weight: 600;
+}
+.SingleUserPost .post-grid{
+    display: flex;
+}

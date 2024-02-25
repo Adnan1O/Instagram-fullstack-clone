@@ -1,0 +1,21 @@
+.searchuser{
+    text-align: start;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.searchuser img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.searchuser span{
+    color: rgb(80, 80, 80);
+}
+.searchuser h4{
+  font-weight: 600;
+  font-size: 0.9rem;
+}

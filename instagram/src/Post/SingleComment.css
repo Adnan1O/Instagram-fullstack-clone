@@ -1,0 +1,25 @@
+.SingleComment{
+    display: flex;
+    gap: 15px;
+}
+.SingleComment img{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.username-comment{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.username-comment h4{
+    font-weight: 500;
+}
+.username-comment span{
+
+    flex-wrap: wrap;
+
+ 
+}

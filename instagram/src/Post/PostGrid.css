@@ -1,0 +1,14 @@
+.Postrid {
+    flex-wrap: wrap;
+}
+.Postrid img{
+   height: 320px;
+   width: 290px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+   cursor: pointer;
+   object-fit: cover;
+}
+.Postrid img:hover{
+    opacity: 0.9;
+}

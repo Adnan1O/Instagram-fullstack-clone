@@ -1,0 +1,44 @@
+.logout{
+    background-color: white;
+    position: absolute;
+    top:  57%;
+    left: 45%;
+    height: 370px;
+    width: 270px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    
+}
+.logout span{
+ margin-left: 8px;
+ width: 250px;
+ height: 45px;
+ border-radius: 7px;
+ text-align: start;
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ padding-left: 5px;
+ transition: 0.2s ease-in-out;
+ cursor: pointer;
+ color: #1c1e21;
+}
+.logout span:hover{
+    background-color: rgb(238, 238, 238);
+}
+.logout span svg{
+    color: #1c1e21;
+}
+.bold-line{
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(238, 238, 238);
+}
+@media (max-width: 1000px) {
+    .logout{
+        left: 50px
+    }
+}

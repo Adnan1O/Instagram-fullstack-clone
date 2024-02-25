@@ -1,0 +1,49 @@
+
+.overall{
+    width: 100%;
+}
+.follow-btn{
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-weight: 700;
+}
+.follow-btn:hover{
+    color: black;
+}
+.message-user{
+    font-weight: 700;
+}
+.follow-message {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: 20rem;
+    margin-top: 30px;
+    height: 40px;
+}
+.main-body .follow-message p{
+    font-size: 20px;
+    margin-right: 0.3rem;
+}
+.main-body .follow-message button{
+    height: 30px;
+    width: 6rem;
+    font-size: 0.9rem; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.main-body .follow-message button:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.follow-message svg{
+    background-color: rgb(236, 236, 236);
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    size: 2px;
+}
+.follow-message svg:hover{
+    background-color: rgb(230, 230, 230);
+}

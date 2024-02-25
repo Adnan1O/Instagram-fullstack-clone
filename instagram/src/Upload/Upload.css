@@ -1,0 +1,151 @@
+.upload{
+    position: relative;
+}
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    position: fixed;
+
+}
+.modal{
+    height: 700px;
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    left: 900px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 0 10px;
+    height: 40px;
+}
+header p{
+    font-weight: 500;
+}
+header svg{
+    cursor: pointer;
+}
+header svg:hover{
+    color: rgb(100, 100, 100);
+}
+header span{
+    color:#1877F2 ;
+    font-weight: 500;
+    cursor: pointer;
+}
+header span:hover{
+    color: black;
+}
+header h4{
+    font-weight: 500;
+}
+.main-area{
+    display: flex;
+    height: 100%;
+}
+.image-area{
+ width: 65%;
+
+ align-self: center;
+
+}
+.post-detail{
+    border-left: 1px solid rgb(230, 230, 230);
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.post-detail .user-img{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.post-detail .user-img img{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+.post-detail .user-img p{
+    font-weight: 600;
+}
+.post-detail .caption{
+    width: 316px;
+    height: 180px;
+    border: none;
+    outline: none;
+    padding-left:5px ;
+  font-size: 1rem;
+}
+.post-detail .location{
+    height: 45px;
+    border: 1px solid rgb(230, 230, 230);
+    border-right: none;
+    border-left: none;
+    outline: none;
+    padding-left:5px ;
+    font-size: 1rem;
+}
+.post-detail .not-available{
+    border-bottom:1px solid rgb(230, 230, 230) ;
+    width: 316px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+@media (max-width: 1500px) {
+    .modal{
+        width: 900px;
+        left: 700px;
+    }
+}
+@media (max-width: 1300px) {
+    .modal{
+        width: 800px;
+        left: 600px;
+        height: 600px;
+    }
+}
+@media (max-width: 1100px) {
+    .modal{
+        width: 700px;
+        left: 500px;
+        height: 500px;
+    }
+}
+@media (max-width: 800px) {
+    .modal{
+        width: 600px;
+        left: 300px;
+        height: 500px;
+    }
+}
+@media (max-width: 500px) {
+    .modal{
+        width: 450px;
+        left: 210px;
+        height: 300px;
+    }
+    .post-detail input{
+        width: 180px;
+        font-size: small;
+    }
+    .post-detail .caption{
+        width: 180px;
+        height: 40px;
+        font-size: small;
+    }
+
+}

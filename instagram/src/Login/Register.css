@@ -1,0 +1,107 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+.fill-details2{
+    border: 1px solid rgb(206, 206, 206);
+    height: 650px;
+    width: 340px;
+    margin-top: 2rem;
+
+}
+
+.friends{
+    font-size: 1rem;
+    margin: 0.5rem 1.5rem ;
+    font-size: 1.2rem;
+
+    color: gray;
+
+}
+.fill-details2 img{
+    margin-top: 2.5rem;
+}
+
+.fill-details2 .input-button{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    align-items: center;
+}
+.input-button p{
+    font-size: 0.75rem;
+    padding: 0 1rem;
+    color: gray;
+}
+.fill-details2 .input-button input{
+    height: 38px;
+    width: 80%;
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 1.3ch;
+    padding-left: 0.3rem;
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+}
+.fill-details2 .input-button input:focus{
+    outline-color: rgb(209, 209, 209);
+}
+
+.facebook-btn svg{
+    font-size: 1.4rem;
+    margin-right: 0.2rem;
+}
+.fill-details2 .input-button button, .facebook-btn{
+    height: 35px;
+    width: 80%;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(0, 149, 246);
+    opacity: 0.8;
+    color: white;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+    cursor: pointer;
+  
+}
+.new-addition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.new-addition span{
+    color: gray;
+}
+.facebook-btn{
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fill-details2 .facebook{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.fill-details2 .facebook p{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #385185;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.fill-details2 .facebook svg{
+    font-size: 1.3rem;
+    margin-right: .2rem;
+}
+.fill-details2 .facebook span{
+    font-size: 0.8rem;
+    color: rgb(95, 95, 95);
+}

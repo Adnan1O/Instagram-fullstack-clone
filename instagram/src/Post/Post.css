@@ -1,0 +1,111 @@
+.post{
+    width: 430px;
+    height: 740px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+
+}
+.post .user-location{
+    height: 60px;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+    text-align: start;
+}
+.post .user-location img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.post .user-location .username-location p{
+    font-weight: 500;
+}
+.post .user-location .username-location span{
+    font-size: 0.8rem;
+    color: rgb(83, 83, 83);  
+}
+.post .user-location .date{
+    color: gray;
+}
+.post .img-video{
+    height: 530px;
+    background-color: black;
+}
+.img-video img {
+    
+ object-fit: contain;
+ width: 100%;
+}
+
+.like-comment{
+    height: 160px;
+}
+.like-comment .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    height: 60px;
+
+}
+.like-comment .icons .like-no{
+    display: flex;
+    height: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: 500;
+}
+.like-comment .icons .four-icon{
+width: 100%;
+height: 40px;
+align-items: flex-end;
+display: flex;
+gap: 1rem;
+
+}
+
+.like-comment .icons .four-icon svg{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.like-comment .icons .four-icon .bookmark{
+    margin-left: 64%;
+    
+}
+.like-comment .icons .four-icon .send{
+
+    font-size: 1.6rem;
+}
+.user-caption{
+    display: flex;
+    flex-direction: column;
+}
+.user-caption .first{
+    display: flex;
+    gap: 5px;
+  
+}
+.user-caption .first p{
+    font-weight: 600;
+    cursor: pointer;
+}
+.user-caption .first span{
+    color: rgb(58, 58, 58);
+    text-align: start;
+}
+.user-caption .comment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    justify-content: center;
+    height: 60px;
+}
+.user-caption .comment span{
+    font-size: 0.9rem;
+}
+.user-caption .comment input{
+    border: none;
+    width: 100%;
+    height: 35px;
+    outline: none;
+}
